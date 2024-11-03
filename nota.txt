@@ -1,0 +1,8 @@
+ <script>
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+          // El usuario está en un dispositivo móvil, no hacemos nada
+        } else {
+          // El usuario NO está en un dispositivo móvil, redirigimos a Wplay
+          window.location.href = "https://www.google.co/"; 
+        }
+        </script>
